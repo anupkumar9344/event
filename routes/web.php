@@ -14,6 +14,12 @@ use App\Http\Controllers\FullCalenderController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-  
+Route::get('/', function () {
+    return view('auth.login');
+});
+
 Route::get('fullcalender', [FullCalenderController::class, 'index']);
 Route::post('fullcalenderAjax', [FullCalenderController::class, 'ajax']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

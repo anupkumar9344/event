@@ -1,0 +1,29 @@
+.toast-container{
+    background-color: rgb(119, 216, 206) !important;
+}
+.btn-default{
+    background-color: rgb(29, 108, 153);
+    color: white;
+    border: 1px solid rgb(29, 108, 153);
+    transition: all ease-in-out .5s;
+}
+.btn-default:hover{
+    background-color: transparent;
+    color: rgb(29, 108, 153);
+    border: 1px solid rgb(29, 108, 153);
+}
+.card, .card-header{
+    background: rgb(193, 207, 216);
+    color: rgb(29, 108, 153);
+}
+.navbar{
+    background: rgb(29, 108, 153) !important;
+    height: 70px;
+    
+}
+.navbar a{
+    color: white !important;
+}
+.dropdown-menu a{
+    color: rgb(29, 108, 153) !important;
+}
